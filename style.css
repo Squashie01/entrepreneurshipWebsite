@@ -15,6 +15,28 @@ a
     color: whitesmoke;
 }
 
+table
+{
+    border: 2px solid #FFC947;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+th, td
+{
+    border: 2px solid #FFC947;
+    margin: 0;
+    text-align: center;
+}
+
+.sections p
+{
+    text-align: center;
+}
+
 #Header
 {
     height: 10vh;
@@ -52,8 +74,8 @@ a
 {
     display: inline;
     vertical-align: middle;
-    padding: 0 30px;
-    font-size: 17px;
+    padding: 0 15px;
+    font-size: 16px;
 }
 
 #HomePage
@@ -99,7 +121,7 @@ a
 
 
 /* Section  CSS */
-.FirstSection
+section
 {
     width: 100%;
     height: 80vh;
@@ -110,6 +132,13 @@ a
 {
     text-align: center;
     font-size: 45px;
+}
+
+.Subtitle
+{
+    text-align: center;
+    font-size: 17px;
+    margin-top: -5vh;
 }
 
 .sections
@@ -145,12 +174,16 @@ a
     text-align: center;
     font-size: 14px;
     padding: 0 5%;
+    overflow-y: scroll;
+    height: 39vh;
 }
 
 .Section2 p, .Section2A p
 {
     text-align: center;
     font-size: 14px;
+    overflow-y: scroll;
+    height: 39vh;
 }
 
 .Section2
@@ -191,4 +224,58 @@ a
     border-top: 5px dotted #FFC947;
     border-left: 5px dotted #FFC947;
     border-bottom: 5px dotted #FFC947;
+}
+
+
+.Divs
+{
+    width: 80%;
+    height: 58vh;
+    margin-top: -5vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.div1
+{
+    width: 100%;
+    height: 12vh;
+    font-size: 13px;
+    text-align: center;
+    padding: 0 5px;
+    margin-left: -10px;
+    border: 5px dotted #FFC947;
+}
+
+.div2, .div3, .div4
+{
+    width: 30%;
+    height: 40vh;
+    float: left;
+    margin-top: 4vh;
+    color: black;
+    background-color: #FFC947;
+}
+
+.div2 h3, .div3 h3, .div4 h3
+{
+    font-size: 13px;
+}
+
+.div2 p, .div3 p, .div4 p
+{
+    font-size: 12px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.div2
+{
+    margin-right: 5%;
+}
+
+.div4
+{
+    margin-left: 5%;
 }
