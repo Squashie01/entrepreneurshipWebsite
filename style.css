@@ -226,6 +226,21 @@ section
     border-bottom: 5px dotted #FFC947;
 }
 
+.Section2A1
+{
+    width: 50%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px dotted #FFC947;;
+}
+
+.Section2A1 p
+{
+    padding: 0 15px;
+}
+
 
 .Divs
 {
@@ -253,7 +268,7 @@ section
     width: 30%;
     height: 40vh;
     float: left;
-    margin-top: 4vh;
+    margin-top: 2vh;
     color: black;
     background-color: #FFC947;
 }
