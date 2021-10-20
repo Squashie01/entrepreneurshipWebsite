@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body
+{
+    background-color: #185ADB;
+    font-family: "Poppins", sans;
+    padding: 0%;
+    margin: 0%;
+    color: whitesmoke;
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#Header
+{
+    height: 10vh;
+    padding: 0 5%;
+    width: 90%;
+    position: fixed;
+    background-color: #185ADB;
+    box-shadow: rgba(17, 17, 17, 0.35) 0px 5px 15px;
+    margin-bottom: 10vh !important;
+}
+
+.Logo
+{
+    width: 25%;
+    height: 10vh;
+    font-size: 6vh;
+    text-align: left;
+    float: left;
+}
+
+.Menu
+{
+    height: 10vh;
+}
+
+.Menu ul
+{
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.Menu li
+{
+    display: inline;
+    vertical-align: middle;
+    padding: 0 30px;
+    font-size: 17px;
+}
+
+#HomePage
+{
+    padding: 17vh 10%;
+    height: 70vh;
+}
+
+.BoxImg, .Heading
+{
+    width: 50%;
+    height: 50vh;
+    float: left;
+}
+
+.BoxImg img
+{
+    width: 70%;
+}
+
+
+.Heading
+{
+    padding-top: 10vh;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+#BottomArrow
+{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    font-size: 40px;
+}
+
+#BottomArrow i
+{
+    margin-top: 10vh;
+}
+
+
+/* Section  CSS */
+.FirstSection
+{
+    width: 100%;
+    height: 80vh;
+    padding-top: 10vh;
+}
+
+.Title
+{
+    text-align: center;
+    font-size: 45px;
+}
+
+.sections
+{
+    width: 80%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Section1
+{
+    background-color: #FFC947;
+    width: 49.6%;
+    height: 50vh;
+    float: left;
+    color: black;
+}
+
+.Section1 h3, .Section2 h3, .Section1A h3, .Section2A h3
+{
+    text-align: center;
+}
+
+.Section2 h3, .Section2A h3
+{
+    margin-top: 15px;
+}
+
+.Section1 p, .Section1A p
+{
+    text-align: center;
+    font-size: 14px;
+    padding: 0 5%;
+}
+
+.Section2 p, .Section2A p
+{
+    text-align: center;
+    font-size: 14px;
+}
+
+.Section2
+{
+    float: right;
+    width: 50%;
+    height: 50vh;
+    margin-top: -3px;
+    border-top: 5px dotted #FFC947;
+    border-right: 5px dotted #FFC947;
+    border-bottom: 5px dotted #FFC947;
+}
+
+.Section2 p, .Section2A p
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.Section1A
+{
+    background-color: #FFC947;
+    width: 49.6%;
+    height: 50vh;
+    float: right;
+    color: black;
+}
+
+.Section2A
+{
+    float: left;
+    width: 50%;
+    height: 50vh;
+    margin-top: -3px;
+    border-top: 5px dotted #FFC947;
+    border-left: 5px dotted #FFC947;
+    border-bottom: 5px dotted #FFC947;
+}
